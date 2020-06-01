@@ -1,0 +1,7 @@
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\bin\Debug\netstandard2.0\SholioLessonMobileApp.deps.json
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\bin\Debug\netstandard2.0\SholioLessonMobileApp.dll
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\SholioLessonMobileApp.csprojAssemblyReference.cache
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\SholioLessonMobileApp.AssemblyInfoInputs.cache
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\SholioLessonMobileApp.AssemblyInfo.cs
