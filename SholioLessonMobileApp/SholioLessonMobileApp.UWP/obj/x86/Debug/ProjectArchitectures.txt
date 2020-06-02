@@ -1,0 +1,1 @@
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp.UWP\SholioLessonMobileApp.UWP.csproj;x86

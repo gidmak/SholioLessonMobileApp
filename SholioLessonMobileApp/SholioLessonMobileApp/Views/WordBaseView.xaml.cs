@@ -81,7 +81,7 @@ namespace SholioLessonMobileApp.Views
             }
         }
 
-        private void WordBaseListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private async void WordBaseListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var selectedMeaning = e.SelectedItem as Meaning;
             await this.Navigation.PushAsync(new WordBaseDetailView(selectedMeaning));
