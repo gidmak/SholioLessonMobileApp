@@ -125,5 +125,53 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\share.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\abaai.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\aban.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\abii.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\abok.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\abu.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\abuk.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\abyien.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\abyin.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\aghyi.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\akwi.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\akwon.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\akyetuk.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\alii.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\apyia.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\ate.3gpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\atyem.3gpp" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
