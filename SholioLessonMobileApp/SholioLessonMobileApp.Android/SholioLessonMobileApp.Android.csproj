@@ -98,7 +98,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\logo.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SholioLessonMobileApp\SholioLessonMobileApp.csproj">
       <Project>{19BAFD02-D194-419E-834B-C90FBFDBCAB0}</Project>

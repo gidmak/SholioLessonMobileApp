@@ -11,7 +11,7 @@ namespace SholioLessonMobileApp
         {
             InitializeComponent();
 
-            MainPage = new WordBaseView();
+            MainPage = new SplashScreenView();
         }
 
         protected override void OnStart()

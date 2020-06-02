@@ -69,6 +69,7 @@ C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\
 C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp.Android\obj\Debug\90\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp.Android\obj\Debug\90\res\mipmap-hdpi\logo.png
 C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp.Android\obj\Debug\90\res\drawable\bg.jpeg
 C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp.Android\obj\Debug\90\res\drawable\logo.png
 C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp.Android\obj\Debug\90\res\drawable\next.png
