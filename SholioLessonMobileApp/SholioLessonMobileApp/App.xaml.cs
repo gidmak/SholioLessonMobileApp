@@ -12,7 +12,8 @@ namespace SholioLessonMobileApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new WordBaseView());
+            //MainPage = new NavigationPage(new WordBaseView());
+            MainPage = new MasterDetailPageView();
         }
 
         protected override void OnStart()

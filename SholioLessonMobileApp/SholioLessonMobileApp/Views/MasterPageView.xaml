@@ -4,12 +4,32 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="SholioLessonMobileApp.Views.MasterPageView">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             xmlns:models="clr-namespace:SholioLessonMobileApp.Models"
+             xmlns:views="clr-namespace:SholioLessonMobileApp.Views"
+             x:Class="SholioLessonMobileApp.Views.MasterPageView"
+             Title="Sholio Lesson">
+    <StackLayout>
+        <ListView x:Name="NavigationListView" x:FieldModifier="public">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type models:MasterNavigationItem}">
+                    <models:MasterNavigationItem Title="Sholio Lesson" 
+                                                 Icon="" 
+                                                 Target="{x:Type views:WordBaseView}">
+                    </models:MasterNavigationItem>
+                    <models:MasterNavigationItem Title="Word for Today"
+                                                 Icon=""
+                                                 Target="{x:Type views:WordForTodayView}">
+                    </models:MasterNavigationItem>
+                    <models:MasterNavigationItem Title="Favourites"
+                                                 Icon=""
+                                                 Target="{x:Type views:FavouritesView}">
+                    </models:MasterNavigationItem>
+                    <models:MasterNavigationItem Title="History"
+                                                 Icon=""
+                                                 Target="{x:Type views:HistoryView}">
+                    </models:MasterNavigationItem>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+    </StackLayout>
 </ContentPage>
