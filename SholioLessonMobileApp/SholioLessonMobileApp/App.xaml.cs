@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SholioLessonMobileApp.Views;
 
+[assembly: ExportFont("Casking Cream Script.tff", Alias ="RegularFont")]
 namespace SholioLessonMobileApp
 {
     public partial class App : Application

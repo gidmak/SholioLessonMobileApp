@@ -9,12 +9,13 @@
              x:Class="SholioLessonMobileApp.Views.SplashScreenView">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="10">
         <pv:PancakeView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundGradientAngle="90">
-            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="40">
                 <pv:PancakeView BackgroundColor="White" HasShadow="True" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="75" HeightRequest="150" WidthRequest="150">
                     <pv:PancakeView BackgroundColor="Gray" HeightRequest="130" WidthRequest="130" CornerRadius="65" HorizontalOptions="Center" VerticalOptions="Center">
                         <Image Source="logo.png" x:Name="imgLogo" HeightRequest="120" WidthRequest="120" Aspect="AspectFill" />
                     </pv:PancakeView>
                 </pv:PancakeView>
+                <Label Text="Sholio Lesson" TextColor="White" FontFamily="RegularFont" FontSize="25" Opacity="0.5" HorizontalOptions="Center" VerticalOptions="Center"/>
             </StackLayout>
         </pv:PancakeView>
     </StackLayout>
