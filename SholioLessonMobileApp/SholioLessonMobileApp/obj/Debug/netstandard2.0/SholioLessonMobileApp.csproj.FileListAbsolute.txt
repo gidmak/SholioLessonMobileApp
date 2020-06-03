@@ -13,3 +13,8 @@ C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\
 C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\ref\SholioLessonMobileApp.dll
 C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\SholioLessonMobileApp.pdb
 C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\SholioLessonMobileApp.csprojAssemblyReference.cache
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\Views\AboutUsView.xaml.g.cs
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\Views\ContactUsView.xaml.g.cs
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\Views\FavouritesView.xaml.g.cs
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\Views\HistoryView.xaml.g.cs
+C:\Users\Gideon Markus\source\repos\SholioLessonMobileApp\SholioLessonMobileApp\SholioLessonMobileApp\obj\Debug\netstandard2.0\Views\WordForTodayView.xaml.g.cs

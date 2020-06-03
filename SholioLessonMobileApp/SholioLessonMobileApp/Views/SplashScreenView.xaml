@@ -3,10 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              mc:Ignorable="d"
-             BackgroundColor="#fff"
+             BackgroundColor="LightSeaGreen"
              x:Class="SholioLessonMobileApp.Views.SplashScreenView">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="10">
-        <Image Source="logo.png" x:Name="imgLogo" HeightRequest="150" WidthRequest="150"/>
+        <pv:PancakeView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundGradientAngle="90">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <pv:PancakeView BackgroundColor="White" HasShadow="True" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="75" HeightRequest="150" WidthRequest="150">
+                    <pv:PancakeView BackgroundColor="Gray" HeightRequest="130" WidthRequest="130" CornerRadius="65" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="logo.png" x:Name="imgLogo" HeightRequest="120" WidthRequest="120" Aspect="AspectFill" />
+                    </pv:PancakeView>
+                </pv:PancakeView>
+            </StackLayout>
+        </pv:PancakeView>
     </StackLayout>
 </ContentPage>

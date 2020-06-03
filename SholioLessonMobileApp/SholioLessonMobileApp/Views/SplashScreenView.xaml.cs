@@ -15,7 +15,7 @@ namespace SholioLessonMobileApp.Views
         public SplashScreenView()
         {
             InitializeComponent();
-            Animate();
+            //Animate();
         }
 
         private async Task Animate()
