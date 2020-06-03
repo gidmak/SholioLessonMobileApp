@@ -14,15 +14,11 @@ namespace SholioLessonMobileApp {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MasterDetailPage.xaml")]
-    public partial class MasterDetailPage : global::Xamarin.Forms.MasterDetailPage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::SholioLessonMobileApp.MasterDetailPageMaster MasterPage;
+    public partial class MasterDetailPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MasterDetailPage));
-            MasterPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::SholioLessonMobileApp.MasterDetailPageMaster>(this, "MasterPage");
         }
     }
 }
