@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using SholioLessonMobileApp.Models;
 using Xamarin.Forms.Xaml;
 
 namespace SholioLessonMobileApp
@@ -15,6 +16,16 @@ namespace SholioLessonMobileApp
         public MasterDetailPageView()
         {
             InitializeComponent();
+            MasterView.NavigationListView.ItemSelected += NavigationListView_ItemSelected;
+        }
+        private void NavigationListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem is MasterNavigationItem item)
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(item.Target));
+                MasterView.NavigationListView.SelectedItem = null;
+                IsPresented = false;
+            }
         }
     }
 }
